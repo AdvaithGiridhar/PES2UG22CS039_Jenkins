@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh 'g++ CC_TA-main/main/hello.cpp -o hello_exec'
+                    sh 'invalid_command_here'
                 }
             }
         }
